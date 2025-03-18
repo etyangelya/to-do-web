@@ -1,0 +1,2 @@
+<app-header (taskadded)="addTask($event)"></app-header>
+<app-todolist [tasks]="tasks" (taskCompleted)="removeTask($event)"></app-todolist>
